@@ -1,2 +1,2 @@
-# Financial-Market-Correlation-Dataset
-A dataset that contains data from both the financial markets and sensor data such as temperature, weather etc. The dataset measures this data and attempts to find correlation between data points, for example between weather conditions and agricultural stocks.
+# Market Melody Dataset
+The Market Melody Dataset is a dataset that combines data from the financial markets and sensor data - temperature, weather and humidity. The dataset pairs upp this data and could be used to find patterns that could potentially be profitable. The dataset uses the Borealis network to record both sensor data and get financial data faster via parallel processing.
