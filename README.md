@@ -1,5 +1,17 @@
 # What is Market Melody?
-This repository contains the Market Melody dataset which tracks CO2 levels and the prices of a range of environmental assets such as Carbon Credits, ESG indexes, Nat. Gas & Oil in order to attempt to find a correlation. In addition, it contains the programs that were used to make it in the [Programs Folder](Programs) and instructions for how to use them in [EXECUTE.md](EXECUTE.md). The program should be run for at least **1-3 months** in order to attempt to form some kind of pattern. Once this has been done, the resulting **dataset.csv** file can be analysed for patterns.
+Market Melody is a dataset focused on finding a profitable pattern between the concentrations of various natural gases (Carbon Monoxide, Nitrogen Dioxide and Ammonia) in the air of rural areas of the UK and UK Feed Wheat Futures + UKA Futures. The thesis is simple:
+
+- When farmers are harvesting wheat or other crops, emmissions in rural areas should go up
+- The harvesting process should happen at similar dates nationally, and to ensure accuracy the program can be run in multiple rural areas simultanously or at the same times of different years, so this should be able to predict in some effect a change in UK wheat futures
+- Additionally, the level of emmisions may affect the UKA Futures Market as this is a market that is directly correlated with pollution
+  - UK politics have a far greater effect on this however so we will taking on a market neutral position whenever we trade this, for example if we believe pollution will go up we will buy UKA Futures and sell EUA Futures simultaniously
+- So, by tracking these concentrations, we can:
+  - Track harvesting times to profit from UK Feed Wheat Futures (increased Nitrogen Dioxide from Combine Harvesters)
+  - ... to profit from UKA futures (...)
+  - Track fertilising stages to profit from UK Feed Wheat Futures (increased Ammonia from fertilisers)
+
+## What is the Market Melody Dataset?
+This repository contains the programs that were used to make the dataset in the [Programs Folder](Programs) and instructions for how to use them in [EXECUTE.md](EXECUTE.md). The program should be run for at least **1-3 months** in order to attempt to form some kind of pattern. Once this has been done, the resulting **dataset.csv** file can be analysed for patterns.
 
 The [**dataset.csv** file already calculated](data.csv) has been trained for **6 months**. See [DATASET.md](DATASET.md) for more detail on the dataset and the patterns found.
 
